@@ -21,8 +21,17 @@
             <DataTemplate DataType="{x:Type viewModel:StuffViewModel}">
                 <view:StuffView/>
             </DataTemplate>
-            <DataTemplate DataType="{x:Type viewModel:HelpViewModel}">
-                <view:HelpView/>
+            <DataTemplate DataType="{x:Type viewModel:AdderViewModel}">
+                <view:AdderView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:CategoryViewModel}">
+                <view:CategoryView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:AddToDoViewModel}">
+                <view:AddToDoView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:AddDeadLineViewModel}">
+                <view:AddDeadLineView/>
             </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>

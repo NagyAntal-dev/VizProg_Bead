@@ -21,7 +21,7 @@
                                      x:Name="SearchBox"
                                      BorderThickness="0"/>
                             <TextBlock IsHitTestVisible="False"
-                                       Text="Keresés"
+                                       Text=""
                                        VerticalAlignment="Center"
                                        HorizontalAlignment="Left"
                                        Margin="10,0,0,0"

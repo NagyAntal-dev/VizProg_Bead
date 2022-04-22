@@ -31,7 +31,10 @@
             <StackPanel Grid.Row="1">
                 <RadioButton Content="Főoldal" Height="50" Foreground="White" FontSize="24" Style="{StaticResource MenuThemeButton}" IsChecked="True" Command="{Binding HomeViewCommand}"/>
                 <RadioButton Content="Naptár" Height="50" Foreground="White" FontSize="24" Style="{StaticResource MenuThemeButton}" Command="{Binding StuffViewCommand}"/>
-                <RadioButton Content="Hozzáadás" Height="50" Foreground="White" FontSize="24" Style="{StaticResource MenuThemeButton}" Command="{Binding HelpViewCommand}"/>
+                <RadioButton Content="Teendők" Height="50" Foreground="White" FontSize="24" Style="{StaticResource MenuThemeButton}" Command="{Binding CategoryViewCommand}"/>
+                <RadioButton Content="Plusz Teendő" Height="50" Foreground="White" FontSize="24" Style="{StaticResource MenuThemeButton}" Command="{Binding AddToDoViewCommand}"/>
+                <RadioButton Content="Plusz Esemény" Height="50" Foreground="White" FontSize="24" Style="{StaticResource MenuThemeButton}" Command="{Binding AddDeadLineViewCommand}"/>
+                <RadioButton Content="Új Csoport" Height="50" Foreground="White" FontSize="24" Style="{StaticResource MenuThemeButton}" Command="{Binding HelpViewCommand}"/>
             </StackPanel>
 
             <TextBox Width="250"
